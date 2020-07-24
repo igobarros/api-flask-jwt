@@ -1,7 +1,7 @@
 ## API COM FLASKRESTFULL E JWT
 
 
-### Esse projeto trata-se de uma simples API desenvolvida usando as bibliotecas flask_restfull, flask_sqlalchemy e JWT (JSON Web Token).
+<p align="justify">Esse projeto trata-se de uma simples API desenvolvida usando as bibliotecas flask_restfull, flask_sqlalchemy e JWT (JSON Web Token).</p>
 
 
 ### Dependências
@@ -19,7 +19,7 @@ $ export FLASK_APP=main
 	3 - Por último, a próxima linha de comando informa ao flask qual arquivo(script) será usado quando o flask for executado, então estamos passando por variável de ambiente ```FLASK_APP``` qual arquivo será executado quando o flask for carregado.
 
 ##### Configurações do banco de dados
-Nesse projeto vamos trabalhar com o SGBD postgresql. Mas nada impede que você use qualquer outro SGBD de sua escolha. Isso porque estamos usando a biblioteca flask_sqlalchemy para se conectar ao banco de dados, o sqlalchemy performance como uma ORM (Object Relational Mapper) que é uma forma de usar orientação a objetos para manipulação dos bancos relacionais. Outra vantagem é que essa biblioteca trabalha com drivers, dando a possibilidade de usar o mesmo código para qualquer banco de dados relacionais, que suporte,  sem ter que fazer grande modificações.
+<p align="justify">Nesse projeto vamos trabalhar com o SGBD postgresql. Mas nada impede que você use qualquer outro SGBD de sua escolha. Isso porque estamos usando a biblioteca flask_sqlalchemy para se conectar ao banco de dados, o sqlalchemy performance como uma ORM (Object Relational Mapper) que é uma forma de usar orientação a objetos para manipulação dos bancos relacionais. Outra vantagem é que essa biblioteca trabalha com drivers, dando a possibilidade de usar o mesmo código para qualquer banco de dados relacionais, que suporte,  sem ter que fazer grande modificações.</p>
 
 Então vamos lá:
 
