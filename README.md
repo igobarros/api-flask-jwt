@@ -53,7 +53,7 @@ $ flask run
 ```
 
 ### Docker
-Podemos isolar nossa aplicação em um container docker com o comando:
+Caso não tenha o postgresql na sua máquina podemos usar uma imagem docker:
 
 ```bash
 $ docker run --name pglocal -e "POSTGRES_PASSWORD=admin" -p 5432:5432 -d postgres
