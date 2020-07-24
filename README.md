@@ -14,9 +14,9 @@ $ pipenv shell
 $ export FLASK_APP=main
 ```
 
-	1 - A segundo linha de comando instala todas as dependências do projeto que contém no arquivo ```Pipfile.lock``` .
-	2 - A terceiro linha de comando ativa o ambiente virtual do pipenv.
-	3 - Por último, a próxima linha de comando informa ao flask qual arquivo(script) será usado quando o flask for executado, então estamos passando por variável de ambiente ```FLASK_APP``` qual arquivo será executado quando o flask for carregado.
+* 1 - A segundo linha de comando instala todas as dependências do projeto que contém no arquivo ```Pipfile.lock``` .
+* 2 - A terceiro linha de comando ativa o ambiente virtual do pipenv.
+* 3 - Por último, a próxima linha de comando informa ao flask qual arquivo(script) será usado quando o flask for executado, então estamos passando por variável de ambiente ```FLASK_APP``` qual arquivo será executado quando o flask for carregado.
 
 ##### Configurações do banco de dados
 <p align="justify">Nesse projeto vamos trabalhar com o SGBD postgresql. Mas nada impede que você use qualquer outro SGBD de sua escolha. Isso porque estamos usando a biblioteca flask_sqlalchemy para se conectar ao banco de dados, o sqlalchemy performance como uma ORM (Object Relational Mapper) que é uma forma de usar orientação a objetos para manipulação dos bancos relacionais. Outra vantagem é que essa biblioteca trabalha com drivers, dando a possibilidade de usar o mesmo código para qualquer banco de dados relacionais, que suporte,  sem ter que fazer grande modificações.</p>
@@ -121,7 +121,7 @@ $ curl -X GET -H "Accept: application/json" -H "Authorization: Bearer {ACCESS_TO
 PUT
 Alterando um contato
 ```bash
-$ curl -X PUT -d '{"id": 1, "Nome": "Geovana", "cellphone": "129843274"}' -H "content-type: application/json" -H "authorization: Bearer {ACCESS_TOKEN}" http://localhost:5000/api/v1/contacts
+$ curl -X PUT -d '{"id": 1, "Nome": "Geovana", "cellphone": "1298432745"}' -H "content-type: application/json" -H "authorization: Bearer {ACCESS_TOKEN}" http://localhost:5000/api/v1/contacts
 ```
 
 DELETE
